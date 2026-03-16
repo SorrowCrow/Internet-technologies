@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table - Internet technologies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="list-item"><a href="./index.html">Home</a></li>
+                <li class="list-item"><a href="form.html">Form</a></li>
+                <li class="list-item"><a class="active" href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="table-container">
+            <h1>Hello, you are on table page</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Name</th>
+                        <th>Preview</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Image</td>
+                        <td>Nature Scene</td>
+                        <td><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.maxfosterphotography.com%2Fimages%2Fxl%2FBob-Ross-Mountain-Summit.jpg&f=1&nofb=1&ipt=4f37542b2724d5013996074576d706a62ff5fa89721d97007c150674d38a56ee" alt="Nature Scene Preview" class="media-preview"></td>
+                        <td><button class="action-btn">Download</button></td>
+                    </tr>
+                    <tr>
+                        <td>Video</td>
+                        <td>Mountain Drone Shot</td>
+                        <td><video controls class="media-preview"><source src="mov_bbb.mp4" type="video/mp4">No Video</video></td>
+                        <td><button class="action-btn">Play</button></td>
+                    </tr>
+                    <tr>
+                        <td>Music</td>
+                        <td>Lofi Beats</td>
+                        <td><audio controls class="media-preview"><source src="horse.ogg" type="audio/mpeg">No Audio</audio></td>
+                        <td><button class="action-btn">Listen</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
